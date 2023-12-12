@@ -6,6 +6,7 @@ const Payment = () => {
         <div id='home' className='getstarted-container'>
             <div className="getstarted-left">
                 <div className="percent-cont">
+                    
                     <img src={Discount} alt="" />
                     <p>20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
                 </div>
