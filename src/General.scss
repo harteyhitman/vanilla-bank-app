@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@600&family=Poppins:wght@100;400&family=Abel:wght@400;900&family=Space+Grotesk&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 
 nav{
     display: none;
@@ -596,7 +598,7 @@ line-height: 150%; /* 27px */
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    border: 1px solid red;
+    // border: 1px solid red;
 
    
 }
@@ -605,6 +607,7 @@ line-height: 150%; /* 27px */
  
     body{
         background-size: cover;
+        background-position: center;
         
         border: 1px solid yellow;
 
@@ -858,12 +861,261 @@ line-height: 150%; /* 27px */
 }
 
 @media (max-width: 350px) {
-    .navs-container {
+    .getstarted-container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .getstarted-container .getstarted-right img {
+        height: 50vh;
+        margin-left: 100px;
+    }
+    .getstarted-container .getstarted-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        max-width: 50%;
+    }
+    .getstarted-container .getstarted-left .our-team {
+        width: 240px;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: "Poppins";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+    }
+    .getstarted-container .getstarted-left h1{
+        font-size: 38px;
+        width: 250px;
+    }
+    .getstarted-container .getstarted-left .percent-cont {
+        font-size: 14px;
+        width: 240px;
+    }
+    .billing-invoice {
+        max-width: 0%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     .billin-img {
+            width: 250px;
+            height: 250px;
+    }
+    }
+    .our-service {
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        width: 240px;
+        height: 203px;
+        margin-top: 20px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+        backdrop-filter: blur(5px);
+        h2{
+            font-size: 16px;
+            width: 200px;
+        }
+        p{
+            width: 200px;
+            font-size: 14px;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+    .footer-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .stats-container {
+        margin-top: 10px;
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    .stats-container div p{
+        font-size: 14px;
+    }
+    .billing-invoice .easy-control {
+        display: flex;
+        width: 240px;
+        gap: 20px;
+        flex-direction: column;
+        // flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .business-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .billing-invoice .easy-control h2 {
+        color: #FFF;
+        font-family: "Poppins";
+        font-size: 28px;
+        font-style: normal;
+        width: 240px;
+        font-weight: 600;
+        line-height: 160%;
+        letter-spacing: 0.48px;
+        text-wrap: wrap;
+    }
+    .rating-con {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .rating-con .ratings {
+        color: #fff;
+        padding: 18px;
+        display: flex;
+        width: 240px;
+        flex-direction: column;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+        gap: 30px;
+    }
+    .rating-con .raters {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        width: 200px;
+    }
+    .rating-con p {
+        width: 200px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        letter-spacing: 0.36px;
+}
+    .rating-con .rate-names {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 16px; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        width: 150px;
+    }
+    .rating-con .rate-founder {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.5;
+        width: 150px;
+    
+    }
+    .company-names {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .footer-cont .footer-links {
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .card-deal {
+        height: 240px;
+        width: 240px;
+    }
+    .business-cont .rewards .reward {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 240px;
+        padding: 10px;
+    }
+    .feedback-container .header-feedback {
         display: flex;
         justify-content: space-between;
-        gap: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        h2{
+            width: 240px;
+            font-size: 28px;
+        }
+        p{
+            width: 240px;
+            font-size: 14px;
+        }
+    }
+    .business-cont .rewards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 240px;
+    }
+    .reserved-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .billing-invoice .billin-img {
+        width: 240px;
+        height: 240px;
 }
-.business-cont .money h2 {
- width: 270px;
-}
+    
+    .billing-invoice .easy-control .apple-google-btn {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+    }
+    .hoobank-footer{
+        width: 240px;
+    }
+    .footer-cont .hoobank-logo p{
+        width: 200px;
+    }
 }
