@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@600&family=Poppins:wght@100;400&family=Abel:wght@400;900&family=Space+Grotesk&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    // border: 1px solid red;
-}
 
 nav{
     display: none;
@@ -598,219 +591,27 @@ line-height: 150%; /* 27px */
         gap: 20px;
     }
 }
-@media (max-width: 700px) {
-    body{
-        background-size: cover;
-    }
-    .getstarted-container .getstarted-left {
-        margin-top: 10px;
-}
-    .navs{
-      display: none;
-    }
-    .hamburgermenu{
-        display: flex;
-        justify-content: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    border: 1px solid red;
 
-    }  
-    .getstarted-container {
-        max-width: 100%;
-        display: flex;
-flex-wrap: wrap;     
-   justify-content: center;
-        margin-top: 10px;
-}
-.getstarted-container .getstarted-left .circle .get-img {
-    display: none;
-}
-.stats-container {
-    margin-top: 30px;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 10px;
-    align-items: center;
-}
-.getstarted-container .getstarted-left h1 {
-    color: #FFF;
-    font-family: "Poppins";
-    font-size: 42px; 
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
-    letter-spacing: 0.72px;
-    width: auto;
-}
-.getstarted-container .getstarted-left .percent-cont {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0px;
-    align-items: center;
-    width: 358px;
-    border-radius: 10px;
-    background: #181820;
-    text-align: center;
-    p{
-        font-size: 16px;
-    }
-}
-.getstarted-container .getstarted-left .our-team {
-    width: 383px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: "Poppins";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 170%;
-}
-.getstarted-container .getstarted-right img {
-    height: 90vh;
-    margin-left: 0px;
-}
-.business-cont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 100px;
-}
-.billing-invoice {
-  width: auto;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.billing-invoice .easy-control h2 {
-    color: #FFF;
-    width: 300px;
-    font-family: "Poppins";
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
-    letter-spacing: 0.48px;
-}
-.billing-invoice .easy-control {
-    display: flex;
-    align-items: center;
-    width: auto;
-    gap: 20px;
-flex-wrap: wrap;  
-  justify-content: center;
-    align-items: center;
-}
-.billing-invoice .easy-control p {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: "Poppins";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-    letter-spacing: 0.18px;
-}
-.card-deal {
-    height: 300px;
-    width: auto;
-   padding: 20px;
-}
-.feedback-container .header-feedback {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-}
-.rating-con {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin:0px;
-}
-.company-names {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 50px;
-    gap: 30px;
-}
-.our-service {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: auto;
-    margin-top: 100px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
-    backdrop-filter: blur(5px);
-}
-.our-service h2 {
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 38px;
-    text-wrap: wrap;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
-}
-.our-service p {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-    letter-spacing: 0.18px;
-    width: auto;
-}
-.footer-cont {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0px;
-    margin-top: 10px;
-}
-.footer-cont .footer-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
-}
-.footer-cont .footer-links h4 {
-    color: #FFF;
-    text-align: start;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
-}
-.button{
-    width: 150px;
-    height: 64px;
-}
-.billing-invoice .billin-img {
-    width: 300px;
-    height: 300px;
-}
+   
 }
 
 @media (max-width: 500px) {
+ 
     body{
         background-size: cover;
+        
+        border: 1px solid yellow;
+
+
+    }
+    .getstarted-container .getstarted-left .circle .get-img{
+        display: none;
     }
     nav{
         display: flex;
@@ -818,166 +619,251 @@ flex-wrap: wrap;
     .navs{
         display: none;
     }
-   
-    .getstarted-container .getstarted-left {
-        margin-top: 100px;
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-}
-    .getstarted-container {
-       width: 100%;
-       margin: 0 auto;
+    .navs-container {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 0px; 
+        justify-content: space-between;
 }
-.getstarted-container .getstarted-left .circle .get-img {
-   display: none;
-
+.getstarted-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.getstarted-container .getstarted-right img {
+    height: 50vh;
+    margin-left: 100px;
+}
+.getstarted-container .getstarted-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    max-width: 50%;
+}
+.getstarted-container .getstarted-left .our-team {
+    width: 303px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+.getstarted-container .getstarted-left h1{
+    font-size: 58px;
+    width: 300px;
 }
 .getstarted-container .getstarted-left .percent-cont {
-    display: flex;
-    gap: 7px;
-    align-items: center;
-    width: 308px;
-    border-radius: 10px;
-    background: #181820;
-    text-align: center;
-}
-.getstarted-container .getstarted-left h1 {
+    font-size: 14px;
     width: 300px;
-    font-size: 52px;
 }
-.getstarted-container .getstarted-left .our-team{
-    font-size: 18px;
-    width: 300px;
-    margin-top: 1rem;
-}
-.our-service{
-display: none;
-}
-.getstarted-right{
+.billing-invoice {
+    max-width: 0%;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+ .billin-img {
+        width: 300px;
+        height: 300px;
+}
+}
+.our-service {
+    margin-left: -30px;
+    display: flex;
+    flex-direction: column;
+   
     justify-content: center;
     align-items: center;
+    padding: 10px 20px;
+    width: 350px;
+    height: 203px;
+    margin-top: 20px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    h2{
+        font-size: 16px;
+        width: 250px;
+    }
+    p{
+        width: 250px;
+        font-size: 14px;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+    }
 }
-.business-cont {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-    margin-top: 100px;
-}
-.billing-invoice{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.footer-cont {
+    display: inline-block;
     align-items: center;
-}
-.rating-con{
-    display: flex;
-    flex-direction: column;
-}
-.company-names{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-.footer-cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.footer-cont .footer-links{
-    max-width: 100%;
-    gap: 40px;
-}
-.reserved-cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-p{
-    width: 400px;
-}
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 10px;
 }
 .stats-container {
-    margin-top: 0px;
+    margin-top: 10px;
     color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-start;
+    gap: 15px;
+    text-align: center;
     align-items: center;
-}
-.billing-invoice .billin-img {
-    width: 300px;
-    height: 300px;
-}
-.getstarted-container .getstarted-right img {
-    height: 350px;
-    margin-left: 100px;
-    width: 350px;
-
 }
 .billing-invoice .easy-control {
     display: flex;
     width: 300px;
-    gap: 10px;
+    gap: 20px;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.business-cont {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
 }
-.find-better-card {
+.billing-invoice .easy-control h2 {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 28px;
+    font-style: normal;
     width: 300px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0.48px;
+    text-wrap: wrap;
+}
+.rating-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+.rating-con .ratings {
+    color: #fff;
+    padding: 18px;
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    gap: 30px;
+}
+.rating-con .raters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 300px;
+}
+.rating-con .rate-names {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 200px;
+}
+.rating-con .rate-founder {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    width: 200px;
+
+}
+.company-names {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-cont .footer-links {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 .card-deal {
     height: 300px;
-    width: 350px;
-    margin-top: 30px;
+    width: 330px;
+}
+.business-cont .rewards .reward {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    padding: 10px;
 }
 .feedback-container .header-feedback {
     display: flex;
-    justify-content:center;
+    justify-content: space-between;
     flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
     align-items: center;
+    h2{
+        width: 300px;
+        font-size: 28px;
+    }
+    p{
+        width: 300px;
+        font-size: 14px;
+    }
 }
-.feedback-container h2 {
-    width: 300px;
-}
-.feedback-container p{
-    width: 300px;
-}
-.rating-con{
-    width: 300px;
-    padding: 24px;
+.business-cont .rewards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 10px;
-}
-
-.business-cont .rewards .reward{
     width: 300px;
 }
-.business-cont .rewards{
-    width: 300px;
-}
-.hoobank-footer{
-    width: 300px;
-    margin: 0 auto;
-}
-.footer-cont .footer-links {
-   width: 300px;
-    gap: 0px;
-}
-.footer-cont .hoobank-logo p{
-    width: 300px;
-    font-size: 16px;
-}
+.reserved-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 
+.billing-invoice .easy-control .apple-google-btn {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+}
+}
 
+@media (max-width: 350px) {
+    .navs-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+}
+.business-cont .money h2 {
+ width: 270px;
+}
+}

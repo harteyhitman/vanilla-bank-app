@@ -6,7 +6,7 @@ const Payment = () => {
         <div id='home' className='getstarted-container'>
             <div className="getstarted-left">
                 <div className="percent-cont">
-                    
+
                     <img src={Discount} alt="" />
                     <p>20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
                 </div>
@@ -18,8 +18,8 @@ const Payment = () => {
                     </div>
                 </div>
                 <p className='our-team'>
-                Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
-We examine annual percentage rates, annual fees.
+                    Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
+                    We examine annual percentage rates, annual fees.
                 </p>
             </div>
             <div className="getstarted-right">
