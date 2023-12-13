@@ -27,11 +27,11 @@ const Hamburger = () => {
         <div className="modal">
          
             <span className="close" onClick={handleCloseModal}>&times;</span>
-            <ul>
-          <a href="#home"><li style={{ color: 'white' }}>Home</li></a>
-          <a href="#about"> <li>About Us</li></a>
-          <a href="#features"><li>Features</li></a>
-          <a href="#solution"><li>Solution</li></a>
+            <ul className='hamburger-list'>
+          <a onClick={handleCloseModal} href="#home"><li style={{ color: 'white' }}>Home</li></a>
+          <a onClick={handleCloseModal} href="#about"> <li>About Us</li></a>
+          <a onClick={handleCloseModal} href="#features"><li>Features</li></a>
+          <a onClick={handleCloseModal} href="#solution"><li>Solution</li></a>
         </ul>
           </div>
       
