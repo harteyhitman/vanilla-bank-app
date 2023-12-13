@@ -1,21 +1,40 @@
 import React, { useState } from 'react';
 
 const Hamburger = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
+  const handleMenuClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
   };
 
   return (
-    <nav>
-      <button onClick={toggleNavbar}>Toggle Navbar</button>
-      {isOpen && (
-        <ul>
-          <li>Link 1</li>
-          <li>Link 2</li>
-          <li>Link 3</li>
+    <nav className="app-btn">
+      <header>
+        <div className="navbar-mobile">
+          <div className="hamburger" onClick={handleMenuClick}>
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </div>
+        </div>
+      </header>
+
+      {isModalOpen && (
+        <div className="modal">
+         
+            <span className="close" onClick={handleCloseModal}>&times;</span>
+            <ul>
+          <a href="#home"><li style={{ color: 'white' }}>Home</li></a>
+          <a href="#about"> <li>About Us</li></a>
+          <a href="#features"><li>Features</li></a>
+          <a href="#solution"><li>Solution</li></a>
         </ul>
+          </div>
+      
       )}
     </nav>
   );
